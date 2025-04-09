@@ -1,0 +1,58 @@
+/* Estilos del body */
+body{
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+header, footer{
+    background-color: #505050;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+    color: #00ffcc;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+h1, h2{
+    color: #0099cc;
+}
+
+form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0 0 10px #ccc;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 40%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #08afa1;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:hover{
+    background-color: #04f3b7;
+    transform: scale(1.05);
+}
