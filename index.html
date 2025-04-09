@@ -1,8 +1,50 @@
-<html> <!--Etiqueta raiz-->
-<head><!--Info sobre la página-->
-    <title>Mi Web</title><!--Titulo de la página-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
 </head>
 <body>
-    <h1>¡Hola Mundo!</h1>
+    <header>
+        <h1>¡Hola, Soy Valentina!</h1>
+        <nav>
+            <a href="#sobremi">Sobre mí</a>
+            <a href="#contacto">Contacto</a>
+            <!-- <a href="https://google.com" target="_blank">Ir a Google</a> -->
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobremi">
+            <h2>Sobre mí</h2>
+            <p>Me gusta programar, y me gusta aprender.</p>
+        </section>
+
+        <article>
+            <h2>Mi Hobby</h2>
+            <p>Uno de mis pasatiempos favoritos es leer.</p>
+        </article>
+
+        <section id="contacto">
+            <h2>Contáctame</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" name="nombre" id="nombre"><br><br>
+                <label for="correo">Correo:</label><br>
+                <input type="text" name="correo" id="correo"><br><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea name="mensaje" id="mensaje" rows="4" cols="30">
+                    
+                </textarea><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Valentina Velez Castrillon</p>
+    </footer>
+
 </body>
 </html>
